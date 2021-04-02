@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+    .main{
+        background-image: url(Bg.png);
+        height:1000px;
+        background-size:cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        
+    }
+    h1{
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        font-size: 45px;
+        position: relative;
+        top: 35%;
+        text-shadow: 2px 2px antiquewhite;
+        letter-spacing: 2px;
+        
+    }
+    .but{
+        height: 300px;
+        
+        margin: auto;
+        text-align: center;
+        position: relative;
+        top:40%;
+        padding-left: 20px;
+        
+    }
+    .butt{
+        padding: 10px;
+        height: 50px;
+        width: 100px;
+        position: relative;
+        top: 80px;
+        
+    }
+    #yes:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+      #no {
+        opacity: 0.6;
+        cursor: not-allowed;
+        
+      }
+      #n{
+          font-size: 10px;
+      }
+      
+      @media(min-width:500px){
+       
+        .main{
+          background-position: left;
+        }
+    }
+    
